@@ -1,0 +1,42 @@
+p {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 32px;
+  color: rgba(163,163,163,0.71);
+  animation: text-shadow 2.5s linear infinite;
+  filter: invert(0) blur(5px);
+}
+
+@keyframes text-shadow {
+  0% {
+    transform: translateY(0);
+    text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+  }
+  20% {
+    transform: translateY(-10px);
+    text-shadow: 0 0.125px 0 #0c2ffb, 0 0.25px 0 #2cfcfd, 0 -0.125px 0 #fb203b, 0 -0.25px 0 #fefc4b;
+  }
+  40% {
+    transform: translateY(5px);
+    text-shadow: 0 -0.0625em 0 #0c2ffb, 0 -0.125em 0 #2cfcfd, 0 0.0625em 0 #fb203b, 0 0.125em 0 #fefc4b;
+    filter: invert(1) blur(0px);
+  }
+  60% {
+    transform: translateY(-0.25px);
+    text-shadow: 0 0.03125em 0 #0c2ffb, 0 0.0625em 0 #2cfcfd, 0 -0.03125em 0 #fb203b, 0 -0.0625em 0 #fefc4b;
+  }
+  80% {
+    transform: translateY(0);
+    text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+  }
+}
+
+a {
+  animation: text-shadow 5s linear infinite;
+  filter: invert(0) blur(5px);
+}
+
+form {
+  /*animation: text-shadow 2.5s linear infinite;*/
+  filter: invert(0) blur(2px);
+}
+

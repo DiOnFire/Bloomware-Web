@@ -1,0 +1,30 @@
+.button {
+  font-family: 'Poppins';
+  text-align: center;
+  background-color: #585757;
+  color: var(--white-color);
+  width: 160px;
+  padding: 14px;
+  border-radius: 5px;
+  font-weight: 500;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+li {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.85);
+}
