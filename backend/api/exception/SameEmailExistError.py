@@ -1,0 +1,2 @@
+class SameEmailExistError(Exception):
+    pass

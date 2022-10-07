@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bloomware Utility Mod - Activate Key</title>
+    <meta name="description" content="Based hack for block game!">
+    <link rel="stylesheet" href="{{ url_for('static', path='/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap">
+<link rel="shortcut icon" href="{{ url_for('static', path='img/Icons/BloomwareIcon.png') }}">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', path='/fonts/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/Login-Form-Dark.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+</head>
+
+<body style="background-color: #303030;">
+    <div id="account_section" style="justify-content: center;display: flex;padding-top: 50px;">
+        <div class="header_img" style="float: left;width: 80px;height: 80px;"><img src="{{ url_for('static', path='/img/Icons/account.png') }}" style="width: 80px;height: 80px;margin-right: 0px;"></div>
+        <div style="display: flex;justify-content: center;">
+            <p id="account_name_up" style="display: inline;margin-left: 13px;font-family: Poppins, sans-serif;font-weight: 300;font-size: 36px;padding-top: 15px;padding-right: 18px;">Account name</p>
+        </div>
+    </div>
+    <div style="padding-top: 30px;">
+        <p style="font-size: 30px;text-align: center;font-family: Poppins, sans-serif;font-weight: 300;">Key activation</p>
+    </div>
+    <div id="input_section" style="width: 613px;height: 72px;padding-top: 0px;margin-top: 0px;">
+        <section class="login-dark">
+            <form method="post">
+                <div class="mb-3"><input class="form-control" type="text" id="key_input" name="key" placeholder="Key" style="font-family: Poppins, sans-serif;"></div>
+                <div class="mb-3"><button class="btn btn-primary d-block w-100" id="activate_btn" type="submit" style="font-family: Poppins, sans-serif;font-weight: 300;">Activate</button></div>
+            </form>
+        </section>
+    </div>
+    <script src="{{ url_for('static', path='/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/core.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/accessController.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/keyController.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/upController.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+class SameNicknameExistError(Exception):
+    pass

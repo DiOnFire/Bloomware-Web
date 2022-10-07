@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bloomware Utility Mod</title>
+    <meta name="description" content="Based utility client for block game!">
+    <link rel="stylesheet" href="{{ url_for('static', path='/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', path='/fonts/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/advantage.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/block.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/featureText.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/previewImg.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+</head>
+
+<body style="padding: 0;margin: 0;background: #242627;font-family: 'Raleway';">
+<div id="background" class="background"
+     style="width: 100%;min-height: 450px;background-image: url('{{ url_for('static', path='/img/BGs/BG.png') }}');background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;background-attachment: fixed;position: absolute;z-index: -10;">
+    <div class="overlay" style="width: 100%;height: 100%;text-align: center;">
+        <div id="particles-js" style="width: 100%;height: 100%;"></div>
+    </div>
+</div>
+<div class="preheader" style="/*padding-top: 20vh;*/color: #fff;z-index: 10;text-align: center;">
+    <div id="header" class="header-block" style="padding-top: 5vh;color: #fff;z-index: 10;text-align: center;"><img
+            src="{{ url_for('static', path='/BloomwareLogo.png') }}" width="508" height="72"
+            style="width: 40%;max-width: 588px;height: auto;padding-bottom: 50px;">
+        <p style="opacity: 0.80;font-size: 20px;padding-top: 20px;padding-bottom: 20px;">Ultimate client. Everything you
+            need is here.</p>
+        <div class="header-buttons"><a href="#">
+            <div class="button" style="color: inherit;">Download now</div>
+        </a><a href="#">
+            <div class="button" style="color: inherit;">Learn more</div>
+        </a></div>
+    </div>
+</div>
+<div class="block" style="/*padding-bottom: -20px;*/">
+    <div class="center" style="padding-top: 130px;">
+        <div style="height: 100%;width: 100%;display: inline-flex;flex-direction: column;justify-content: center;"
+             class="content">
+            <div>
+                <h1>Features</h1>
+            </div>
+        </div>
+        <div id="advantages" class="block"
+             style="width: 80%;max-width: 1280px;color: black;margin-left: auto;margin-right: auto;margin-top: 50px;">
+            <div class="advantages" style="text-align: center;padding-top: 40px;">
+                <div class="advantage">
+                    <div class="icon"
+                         style="background-image: url('{{ url_for('static', path='/img/Icons/Bloomvelop.png') }}')"></div>
+                    <div class="title">Bloomvelop SDK</div>
+                    <div class="description">Create your own nodules with Bloomvelop SDK!</div>
+                </div>
+                <div class="advantage">
+                    <div class="icon"
+                         style="background-image: url('{{ url_for('static', path='/img/Icons/clock.png') }}')"></div>
+                    <div class="title">Sweet updates</div>
+                    <div class="description">We always adding something special.</div>
+                </div>
+                <div class="advantage">
+                    <div class="icon"
+                         style="background-image: url('{{ url_for('static', path='/img/Icons/edit.png') }}')"></div>
+                    <div class="title">Fully customizable</div>
+                    <div class="description">You can fully setup your Bloomware as you want.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="anarchy-info"
+     style="width: 100%;height: 360px;background-position: 50% 0;background-image: url('{{ url_for('static', path='/img/BGs/Render2b.png') }}');background-repeat: no-repeat;background-attachment: fixed;/*background-size: 100vm 100vh;*/background-size: cover;">
+    <div class="block" style="color: white;height: 100%;/*width: 100%;*/">
+        <div class="content"
+             style="height: 100%;width: 100%;display: inline-flex;flex-direction: column;justify-content: center;">
+            <div>
+                <h1 style="margin-top: 5px;color: white;">Heading</h1>
+                <p style="color: white;">Paragraph</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block">
+    <div class="center">
+        <h1>Not ugly GUI</h1>
+        <p>Yeah</p><img class="enter-scroll"
+                        style="background-image: url('{{ url_for('static', path='/img/Other/BloomGUI.png') }}');width: 100%;max-width: 1280px;height: auto;transform: translateY(0px);opacity: 1;text-align: center;background-size: 1280px 720px;height: auto;box-shadow: 1px 0 34px 0 rgba(0, 0, 0, .37);">
+    </div>
+</div>
+<div class="block" style="margin-top: 50px;/*padding-bottom: 80px;*//*padding-top: 20px;*/">
+    <div class="center" style="padding-top: 30px;padding-bottom: 80px;">
+        <h1>Download</h1>
+        <p>Current version:&nbsp;</p>
+        <div class="download-button"
+             style="background-image: url('{{ url_for('static', path='/img/Icons/download.png') }}');background-repeat: no-repeat;background-position: 28px 29px;background-size: 38px 38px;/*background: rgb(185,0,201);*/background-color: #b422b7;/*background: linear-gradient(90deg, rgba(226,9,245,1) 29%, rgba(165,8,255,1) 74%);*/width: 310px;border-radius: 7px;margin: auto;text-align: left;">
+            <a href="#" onclick="" style="text-decoration: none;">
+                <div class="inner"
+                     style="color: white;padding: 22px;padding-left: 100px;box-shadow: 1px 0 34px 0 rgba(0, 0, 0, .37);">
+                    <div class="button-title" style="font-weight: 700; font-size: 24px;">Download</div>
+                    <div class="button-description" style="opacity: .7;">Minecraft 1.18.2</div>
+                </div>
+            </a></div>
+    </div>
+    <div class="premium-block"
+         style="background-image: url('{{ url_for('static', path='/img/BGs/PremiumBG.png') }}');background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;background-attachment: fixed;color: white;width: 100%;height: 210px;border-radius: 10px;box-shadow: 1px 0 34px 0 rgba(0, 0, 0, .37);">
+        <div class="left-description" style="float: left;margin: 40px;margin-left: 50px;">
+            <div class="premium-description"
+                 style="background-image: url('{{ url_for('static', path='/img/Icons/PremiumIcon.png') }}');background-repeat: no-repeat;background-position: 0 2px; background-size: 49px 49px;padding: 8px;padding-left: 72px;padding-bottom: -10px;font-size: 30px;font-weight: 900;">
+                Bloomware Super
+            </div>
+            <p style="color: white;opacity: 0.70;text-align: left;">Exclusive bypasses<br>Support<br>Regular updates</p>
+        </div>
+        <div class="right-button" style="float: right;margin-right: 50px;margin-top: 77px;margin-left: 50px;">
+            <div class="purchase-button"
+                 style="background-image: url('{{ url_for('static', path='/img/Icons/ShoppingCart.png') }}');background-repeat: no-repeat;background-position: 20px 22px;background-size: 30px 30px;background-color: #ffffff;color: darkcyan;padding: 10px;padding-left: 68px;width: 200px;border-radius: 7px;box-shadow: 1px 0 34px 0 rgba(0, 0, 0, .37);">
+                <div class="button-title" style="color: darkcyan; font-weight: 700; font-size: 18px">Purchase</div>
+                <div class="button-description" style="color: darkcyan;">$20 / Lifetime</div>
+                <a href="#" style="text-decoration: none;"></a></div>
+        </div>
+    </div>
+</div>
+<div class="block">
+    <div class="center">
+        <h1 class="footer">Videos and reviews</h1>
+    </div>
+</div>
+<div class="block">
+    <div class="center">
+        <h1 class="footer">Already have an account?</h1>
+        <div class="login-button"
+             style="background-repeat: no-repeat;background-position: 28px 29px;background-size: 38px 38px;/*background: rgb(185,0,201);*/background-color: #b422b7;/*background: linear-gradient(90deg, rgba(226,9,245,1) 29%, rgba(165,8,255,1) 74%);*/width: 210px;border-radius: 7px;margin: auto;text-align: left;margin-bottom: 30px">
+            <a href="http://127.0.01:8000/login" onclick="" style="text-decoration: none;">
+                <div class="inner"
+                     style="color: white;padding: 22px 22px 22px 100px;box-shadow: 1px 0 34px 0 rgba(0, 0, 0, .37);">
+                    <div class="button-title" style="font-weight: 700; font-size: 24px;">Login</div>
+                </div>
+            </a></div>
+        <div class="register-button"
+             style="background-repeat: no-repeat;background-position: 28px 29px;background-size: 38px 38px;/*background: rgb(185,0,201);*/background-color: #b422b7;/*background: linear-gradient(90deg, rgba(226,9,245,1) 29%, rgba(165,8,255,1) 74%);*/width: 210px;border-radius: 7px;margin: auto;text-align: left;">
+            <a href="http://127.0.01:8000/register" onclick="" style="text-decoration: none;">
+                <div class="inner"
+                     style="color: white;padding: 22px 22px 22px 100px;box-shadow: 1px 0 34px 0 rgba(0, 0, 0, .37);">
+                    <div class="button-title" style="font-weight: 700; font-size: 24px;">Register</div>
+                </div>
+            </a></div>
+    </div>
+</div>
+<div class="footer"
+     style="background-color: #353535;width: 100%;text-align: center;padding-top: 20px;padding-bottom: 20px;">
+    <div class="prod"
+         style="background-image: url('{{ url_for('static', path='/img/Icons/BloomwareIcon.png') }}');background-repeat: no-repeat;background-position: 0 0;background-size: 120px 120px;width: 120px;height: 120px;margin: auto;"></div>
+    <p style="font-size: 12px;">Copyright&nbsp;© 2022 by The Breakery. All rights Reserved.<br>Website by DiOnFire.</p>
+</div>
+<script src="{{ url_for('static', path='/bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>

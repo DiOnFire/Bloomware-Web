@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Purchase Bloomware</title>
+    <meta name="description" content="Based hack for block game!">
+    <link rel="stylesheet" href="{{ url_for('static', path='/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap">
+    <link rel="shortcut icon" href="{{ url_for('static', path='img/Icons/BloomwareIcon.png') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', path='/fonts/font-awesome.min.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/featureText.css') }}">
+
+</head>
+
+<body style="background-color: #303030;">
+    <style>
+        .button {
+            margin: 5px;
+            background-color: #4d4d4d;
+            width: 250px;
+            padding: 14px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+
+    <div style="padding-top: 30px;">
+        <p style="font-size: 39px;">Purchase Bloomware</p>
+        <p>Please, read our <a href="https://bloomware.org/terms" style="color: #00d9ff">terms and conditions</a> before buying.<br>If something goes wrong, write to the mail
+            bloomwaredev@gmail.com or in Discord (dion#9284 / jew#9999)<br></p>
+
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content: center; padding: 5px;">
+        <a href="#">
+            <div class="button">Purchase with crypto</div>
+        </a>
+        <a href="{{ fondy_link }}">
+            <div class="button">Purchase with fondy</div>
+        </a>
+    </div>
+
+    <script src="{{ url_for('static', path='/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', path='/js/accessController.js') }}"></script>
+</body>
+
+</html>
