@@ -33,5 +33,6 @@ server {
 }
 ```
 - Done.
+- To start this shit, use ```pm2 start "gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app"``` (if you are using PM2 process manager)
 
 happy hacking :^)
